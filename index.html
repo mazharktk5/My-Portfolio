@@ -5,25 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="stylesheet" href="style.css">
-
-
-     <!-- <script>
-        var audio = new Audio("../");
-        function playAudio()
-    {
-        audio.play();
-    }
-    document.getElementById("speaker").addEventListener("click",playAudio);
-    </script>
-      -->
-     <!-- <script>
-    const icon = document.getElementById('speaker');
-    const audio = document.getElementById('audio');
-
-    icon.addEventListener('click', () => {
-        audio.play();
-    });
-</script> -->
     <style>
          table,tr,td,th{
             border: 1px solid black;
@@ -69,20 +50,13 @@
     <img src="./images\IMG-20231117-WA0027.jpg" height="200" width="200" alt="My image" title="my photo">
     
    <div style="display: flex; align-items: center;">
-    <h1 style="margin-right: 10px;">Mazhar Ahmad</h1>
+    <h1 id="myName" style="margin-right: 10px;">Mazhar Ahmad</h1>
     <img id="speaker" src="./icones/speaker.png" alt="">
 </div>
 
-<audio id="audio" src="your_audio_file.mp3"></audio>
+<audio id="audio" src="Assets\Audio\Project Name.mp3"></audio>
 
-<script>
-    const icon = document.getElementById('speaker');
-    const audio = document.getElementById('audio');
 
-    icon.addEventListener('click', () => {
-        audio.play();
-    });
-</script>
 
 
     <dfn id="def"><dt>About me</dt>
@@ -141,3 +115,38 @@
 
 </body>
 </html>
+<script>
+//     var audio = document.getElementById("audio");
+//     var icon = document.getElementById("speaker");
+//     icon.addEventListener("click");
+//     function playaudio(){
+// audio.play();
+//     }
+//     function stopaudio{
+//         audio.paused();
+//     }
+//    if (audio.paused){
+//     audio.play();
+//    }
+//    else{
+//     // icon.addEventListener("click",stopaudio);
+//     audio.paused();
+//    }
+var audio = document.getElementById("audio");
+var icon = document.getElementById("speaker");
+
+function playAudio() {
+  if (audio.paused) {
+    audio.play();
+  
+  } else {
+    audio.pause();
+   
+  }
+}
+
+icon.addEventListener("click", playAudio);
+    
+  
+ 
+</script>

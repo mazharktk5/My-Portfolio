@@ -18,8 +18,10 @@ body{
     
     nav a {
         text-decoration: none; /* Remove underline from links */
-        margin: 30px  20px; /* Adjust margin to create space between links */
-        color: white; /* Set text color to white for better contrast */
+        margin-top: 28px; /* Adjust margin to create space between links */
+        color: white;
+        margin-bottom: 26px;
+        margin-right: 57px; /* Set text color to white for better contrast */
     }
     
     h1 {
@@ -33,7 +35,8 @@ body{
     h3 {
         color: #f44336; /* Red for sub-subheadings */
     }
-    #def{
-    border-radius: 10px;
-    }
+    
+}
+#contact-nav{
+    padding-left: 35.2em;
 }
