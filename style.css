@@ -1,0 +1,39 @@
+body{
+    background-color: lightgrey ;
+    header {
+        background-color: lightgrey;
+        text-align: center;
+        padding: 0px 0px; /* Add padding to create space between items */
+        
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center; /* Center align items */
+        align-items: center;
+        background-color: #4d464b; /* Darker grey background color */
+        padding: 10px; /* Add padding to the navigation bar */
+        border-radius: 10px;
+    }
+    
+    nav a {
+        text-decoration: none; /* Remove underline from links */
+        margin: 30px  20px; /* Adjust margin to create space between links */
+        color: white; /* Set text color to white for better contrast */
+    }
+    
+    h1 {
+        color: #af4e94; /* Dark grey for main headings */
+    }
+
+    h2 {
+        color: #009688; /* Teal for subheadings */
+    }
+
+    h3 {
+        color: #f44336; /* Red for sub-subheadings */
+    }
+    #def{
+    border-radius: 10px;
+    }
+}
