@@ -28,6 +28,10 @@ body{
         border-radius: 3px;
         font-size: 20;
     }
+    nav a:hover{
+        transition: transform 0.3s;
+        transform: scale(1.1);
+    }
     
     h1 {
         color: #040419; 
@@ -48,3 +52,18 @@ body{
 #contactme{
     border: 3px solid violet;
 }
+/* .contact-links{
+    text-decoration: none;
+    color: black;
+    border: 3px solid red;
+    padding: 6px;
+    background-color: aqua;
+   display: inline-block; 
+    border-radius: 10px;
+}
+.contact-links:hover{
+
+    background-color: bisque;
+    transition: transform 0.3s;
+    transform: scale(1.1);
+} */
