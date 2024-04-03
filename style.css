@@ -1,56 +1,64 @@
-body{
-    background-color: #889c86e6 ;
-    header {
-        background-color: none;
-        text-align: center;
-        padding: 0px 0px; 
-        
-    }
-    
-    nav {
-        display: flex;
-        justify-content: center; 
-        align-items: center;
-        background-color:#718569;
-        padding: 10px; 
-        border-radius: 10px;
-    }
-
-    
-    nav a {
-        text-decoration: none; 
-        margin-top: 28px; 
-        color: white;
-        margin-bottom: 26px;
-        margin-right: 57px; 
-        background-color: rgb(102, 63, 88);
-        padding: 4px;
-        border-radius: 3px;
-        font-size: 20;
-    }
-    nav a:hover{
-        transition: transform 0.3s;
-        transform: scale(1.1);
-    }
-    
-    h1 {
-        color: #040419; 
-    }
-
-    h2 {
-        color: #371712; 
-    }
-
-    h3 {
-        color: #080809; 
-    }
-    
+body {
+  background-color: #dae1d9e6;
 }
-#contact-nav{
-    padding-left: 35.2em;
+  header {
+    background-color: none;
+    text-align: center;
+    padding: 0px 0px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #718569;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    margin-top: 28px;
+    color: white;
+    margin-bottom: 26px;
+    margin-right: 57px;
+    background-color: rgb(102, 63, 88);
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 20;
+  }
+  nav a:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+  }
+  #my-image{
+    border: 5px solid black;
+    border-radius: 100px;
+    
+  
+ }
+ form input{
+  border-radius: 10px;
+  padding: 2px;
+ }
+
+  h1 {
+    color: #040419;
+   
+
+  h2 {
+    color: #371712;
+  }
+
+  h3 {
+    color: #080809;
+  }
 }
-#contactme{
-    border: 3px solid violet;
+#contact-nav {
+  padding-left: 35.2em;
+}
+#contactme {
+  border: 3px solid violet;
 }
 /* .contact-links{
     text-decoration: none;
